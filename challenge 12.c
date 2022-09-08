@@ -17,15 +17,12 @@ void main()
     printf("L inverse est %d",inverse);
     */
 
-    int T[2];
+    char T[2];
     printf("donner 1er nombre\n");
-    scanf("%d",&T[0]);
-     printf("donner 2eme nombre\n");
-    scanf("%d",&T[1]);
-     printf("donner 3eme nombre\n");
-    scanf("%d",&T[2]);
+    scanf("%s %s %s",&T[0],&T[1],&T[2]);
+
     printf("L inverse est \n\n");
-    printf("%d %d %d",T[2],T[1],T[0]);
+    printf("%c %c %c",T[2],T[1],T[0]);
 
 
 
